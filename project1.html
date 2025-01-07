@@ -80,7 +80,7 @@
         </div>
     </section>
 <!-- About Section -->
-    <section>
+    <section class="about-section">
             <div class="about-row">
                 <div class="about-txt">
                     <div class="about-txt-row">
@@ -230,51 +230,44 @@
         
     </section>
 <!-- contact section -->
-    <section>   
+    <section class="contact-section">   
         
                 <div class="heading-title">
                     <h2 class="heading-contact" id="contact">Contact</h2>
                     <hr style="border-bottom: 2px solid #d0ae81; width: 12%; border-radius: 10px;">
                 </div>
-        <div class="textForm-container">
-            <div class="rowText-container">
-                <span class="textContainer">
+            <div class="rowText-container" style="display: flex;">
+                <div class="textContainer" style="flex: 1;">
                     <ul class="list-unstyled conctact-us-details-container">
                         <li>United Kingdom</li>
                     </ul>
                     <ul class="list-unstyled conctact-us-details-container">
                         <li><a href="tel:+44-7512307397">
-                            <span>+44-7512307397</span>
+                            <span style="color: #d0ae81;">+44-7512307397</span>
                         </a>
                         </li>
                         <li><a href="mailto:bethdonaldson6mw@gmail.com">
-                            <span>bethdonaldson6mw@gmail.com</span>
+                            <span style="color: #d0ae81">bethdonaldson6mw@gmail.com</span>
                         </a>
                         </li>
                         <li class="open-hours">Mon-Fri - 08:00-19:00</li>
                     </ul>
-                </span>
-                <span class="formContainer">
-                    <form class="contactusForm">
-                        <div class="formData">
-                            <div class="name">
-                                <input type="text" , name="contactUs-Name", placeholder="Name">
-                            </div>
-                            <div class="formData">
-                                <input type="text" , name="contactUs-Phone" , placeholder="Phone">
-                            </div>
+                </div>
+                    <form class="contactusForm" style="flex: 1;">
+                        <div class="formData" >
+                                <input type="text" , name="contactUs-Name", placeholder="Name" class="btn-block" style="width: 50%;">
+                                <input type="tel" , name="contactUs-Phone" , placeholder="Phone" class="btn-block" style="width: 50%;">
                         </div>
                         <div class="formData">
-                            <input type="text" name="contactUs-Email" , placeholder="Email">
+                            <input type="text" name="contactUs-Email" , placeholder="Email" class="btn-block" style="width: 100%;">
                         </div>
                         <div class="formData">
-                            <input type="text" name="contactUs-Message" placeholder="Message">
+                            <input type="text" name="contactUs-Message" placeholder="Message" class="btn-block" style="width: 100%;">
                         </div>
-                        <button type="submit">Contact Us</button>
+                        <button class="formData button" type="submit" style="text-align: center;">Contact Us</button>
                     </form>
-                </span>
+                
             </div>
-        </div>
     </section>
    <footer class="global-footer">
     <div class="part1">
