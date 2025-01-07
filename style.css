@@ -175,3 +175,24 @@ a{
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.service-picture{
+    
+    height: 150px;
+    width: 150px;
+    aspect-ratio: 1/1;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+.service-item-text{
+    background-color: rgb(242, 236, 228);
+
+}
+.service-grid-item{
+    width: 70%;
+    gap: 30px;
+
+}
+  
